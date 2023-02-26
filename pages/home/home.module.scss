@@ -23,7 +23,7 @@
         gap: 50px;
         justify-content: center;
         margin: 40px;
-        min-height: 70vh;
+        min-height: 100vh;
 
         .profilePicture {
           animation: slideIn 7s;
@@ -121,6 +121,7 @@
       &TextContent {
         max-width: 800px;
         margin-bottom: 50px;
+        font-size: 21px;
         color: #D5D5D5;
         white-space: pre-line;
       }
