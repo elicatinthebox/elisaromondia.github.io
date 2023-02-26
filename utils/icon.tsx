@@ -4,8 +4,8 @@ import styles from './icon.module.scss'
 import ReactTooltip from 'react-tooltip'
 
 type IconProps = {
-  defaulIcon: StaticImageData
-  onHoverIcon: StaticImageData
+  defaulIcon: string
+  onHoverIcon: string
   href?: string
   height: number
   name: string
