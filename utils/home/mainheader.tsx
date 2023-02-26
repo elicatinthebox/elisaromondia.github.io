@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './mainheader.module.scss'
 import { useTypedText } from '../typingtext'
 
-export function VMainHeader() {
+export function MainHeader() {
   return (
     <div className={styles.aboutInfo}>
       <h1 className={styles.header}>

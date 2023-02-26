@@ -1,4 +1,4 @@
-import { VIcon } from './icon'
+import { FooterIcon } from './icon'
 import {
   linkedInLogo,
   gitHubLogo,
@@ -8,7 +8,7 @@ import {
 } from '../assets'
 import styles from './footer.module.scss'
 
-export function VFooter() {
+export function Footer() {
   return (
     <footer className={styles.footer}>
       <h4 className={styles.copyrights}>
@@ -17,42 +17,36 @@ export function VFooter() {
         Build with <span>Next.js/TypeSript</span>
       </h4>
       <div className={styles.icons}>
-        <VIcon
+        <FooterIcon
           defaulIcon={linkedInLogo}
-          onHoverIcon={linkedInLogo}
-          href="https://www.linkedin.com/in/Elisa-Romondia-0b2ba815a"
+          href="https://www.linkedin.com/in/Elisa-Romondia"
           height={30}
           width={30}
           name="LinkedIn" />
-        <VIcon
+        <FooterIcon
           defaulIcon={instagramLogo}
-          onHoverIcon={instagramLogo}
           href="https://www.instagram.com/elicatinthebox/"
           height={30}
           width={30}
           name="Instagram" />
-        <VIcon
+        <FooterIcon
           defaulIcon={gitHubLogo}
-          onHoverIcon={gitHubLogo}
           href="https://github.com/elisaromondia"
           height={30}
           width={30}
           name="GitHub" />
-        <VIcon
+        <FooterIcon
           defaulIcon={telegramLogo}
-          onHoverIcon={telegramLogo}
           href="http://telegram.me/elicatinthebox"
           height={30}
           width={30}
           name="Telegram" />
-        <VIcon
+        <FooterIcon
           defaulIcon={twitchLogo}
-          onHoverIcon={twitchLogo}
           href="https://www.twitch.tv/elicatinthebox"
           height={30}
           width={30}
           name="Twitch" />
-
       </div>
     </footer>
   )

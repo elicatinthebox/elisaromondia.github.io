@@ -2,17 +2,16 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { Fade } from "react-awesome-reveal"
 import {
-  VFooter,
-  VMainHeader,
+  Footer,
+  MainHeader,
 } from '../../utils'
 import {
   profilePicture
 } from '../../assets'
 import styles from './home.module.scss'
 
-export default function VHome() {
+export const Home = () => {
   return (
     <div className={styles.homeContainer}>
       <Head>
@@ -20,14 +19,14 @@ export default function VHome() {
         <meta name="description" content="Blockchain Ethereum Architect expert in Smart Contract audit" />
         <meta name="author" content="Elisa Romondia" />
         <meta name="keywords" content="Elisa, Romondia, Ethereum, Blockchain" />
-        <meta property="og:image" content="https://www.elisaromondia.com/portfolioPage.png" key="ogimage" />
+        <meta property="og:image" content="https://www.elisaromondia.com/preview.png" key="ogimage" />
         <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon" />
 
       </Head>
       <div className={styles.content}>
         <div className={styles.intro}>
           <div className={styles.introduction}>
-            <VMainHeader />
+            <MainHeader />
             <div className={styles.profilePicture}>
               <Image
                 alt="Profile picture of Elisa Romondia."
@@ -69,7 +68,7 @@ export default function VHome() {
 
 
       </div>
-      <VFooter />
+      <Footer />
     </div>
   )
 }

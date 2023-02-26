@@ -1,7 +1,7 @@
-import VHome from "./home"
+import { Home } from "./home"
 
-export default function Home() {
+export default function IndexPage() {
   return (
-    <VHome/>
+    <Home/>
   )
 }
