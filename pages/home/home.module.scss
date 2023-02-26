@@ -27,7 +27,7 @@
 
         .profilePicture {
           animation: slideIn 7s;
-          overflow: hidden;
+          
           width: 750px;
           text-align: center;
 
@@ -40,7 +40,6 @@
             img {
               width: 70vw;
               height: auto;
-              overflow: unset;
             }
 
           }
