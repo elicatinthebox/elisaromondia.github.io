@@ -1,9 +1,7 @@
 import { VIcon } from './icon'
 import {
   linkedInLogo,
-  linkedInLogoHover,
   gitHubLogo,
-  gitHubLogoHover,
   telegramLogo,
   twitchLogo,
   instagramLogo
