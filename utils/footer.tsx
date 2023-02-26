@@ -13,7 +13,7 @@ export function VFooter() {
     <footer className={styles.footer}>
       <h4 className={styles.copyrights}>
         ©2023
-        <br/>
+        <br />
         Build with <span>Next.js/TypeSript</span>
       </h4>
       <div className={styles.icons}>
@@ -23,36 +23,36 @@ export function VFooter() {
           href="https://www.linkedin.com/in/Elisa-Romondia-0b2ba815a"
           height={30}
           width={30}
-          name="LinkedIn"/>
-               <VIcon
+          name="LinkedIn" />
+        <VIcon
           defaulIcon={instagramLogo}
           onHoverIcon={instagramLogo}
           href="https://www.instagram.com/elicatinthebox/"
           height={30}
           width={30}
-          name="Instagram"/>
+          name="Instagram" />
         <VIcon
           defaulIcon={gitHubLogo}
           onHoverIcon={gitHubLogoHover}
           href="https://github.com/elisaromondia"
           height={30}
           width={30}
-          name="GitHub"/>
+          name="GitHub" />
         <VIcon
           defaulIcon={telegramLogo}
           onHoverIcon={telegramLogo}
           href="http://telegram.me/elicatinthebox"
           height={30}
           width={30}
-          name="Telegram"/>
+          name="Telegram" />
         <VIcon
           defaulIcon={twitchLogo}
           onHoverIcon={twitchLogo}
           href="https://www.twitch.tv/elicatinthebox"
           height={30}
           width={30}
-          name="Twitch"/>
-   
+          name="Twitch" />
+
       </div>
     </footer>
   )
