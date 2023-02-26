@@ -11,7 +11,7 @@ import {
 } from '../../assets'
 import styles from './home.module.scss'
 
-export const Home = () => {
+export default function Home() {
   return (
     <div className={styles.homeContainer}>
       <Head>
