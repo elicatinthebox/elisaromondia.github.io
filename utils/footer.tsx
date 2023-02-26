@@ -19,7 +19,7 @@ export function VFooter() {
       <div className={styles.icons}>
         <VIcon
           defaulIcon={linkedInLogo}
-          onHoverIcon={linkedInLogoHover}
+          onHoverIcon={linkedInLogo}
           href="https://www.linkedin.com/in/Elisa-Romondia-0b2ba815a"
           height={30}
           width={30}
@@ -33,7 +33,7 @@ export function VFooter() {
           name="Instagram" />
         <VIcon
           defaulIcon={gitHubLogo}
-          onHoverIcon={gitHubLogoHover}
+          onHoverIcon={gitHubLogo}
           href="https://github.com/elisaromondia"
           height={30}
           width={30}
