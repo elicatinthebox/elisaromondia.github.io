@@ -8,6 +8,40 @@ import {
 } from '../assets'
 import styles from './footer.module.scss'
 
+interface IFooterIcon {
+  defaultIcon: any
+  href: string
+  name: string
+}
+
+const FooterIcons: IFooterIcon[] = [
+  {
+    defaultIcon: linkedInLogo,
+    href: "https://www.linkedin.com/in/Elisa-Romondia",
+    name: "LinkedIn",
+  },
+  {
+    defaultIcon: instagramLogo,
+    href: "https://www.instagram.com/elicatinthebox/",
+    name: "Instagram",
+  },
+  {
+    defaultIcon: gitHubLogo,
+    href: "https://github.com/elisaromondia",
+    name: "GitHub",
+  },
+  {
+    defaultIcon: telegramLogo,
+    href: "http://telegram.me/elicatinthebox",
+    name: "Telegram",
+  },
+  {
+    defaultIcon: twitchLogo,
+    href: "https://www.twitch.tv/elicatinthebox",
+    name: "Twitch",
+  },
+]
+
 export function Footer() {
   return (
     <footer className={styles.footer}>
@@ -17,36 +51,17 @@ export function Footer() {
         Build with <span>Next.js/TypeSript</span>
       </h4>
       <div className={styles.icons}>
-        <FooterIcon
-          defaulIcon={linkedInLogo}
-          href="https://www.linkedin.com/in/Elisa-Romondia"
-          height={30}
-          width={30}
-          name="LinkedIn" />
-        <FooterIcon
-          defaulIcon={instagramLogo}
-          href="https://www.instagram.com/elicatinthebox/"
-          height={30}
-          width={30}
-          name="Instagram" />
-        <FooterIcon
-          defaulIcon={gitHubLogo}
-          href="https://github.com/elisaromondia"
-          height={30}
-          width={30}
-          name="GitHub" />
-        <FooterIcon
-          defaulIcon={telegramLogo}
-          href="http://telegram.me/elicatinthebox"
-          height={30}
-          width={30}
-          name="Telegram" />
-        <FooterIcon
-          defaulIcon={twitchLogo}
-          href="https://www.twitch.tv/elicatinthebox"
-          height={30}
-          width={30}
-          name="Twitch" />
+        {FooterIcons.map((icon, index) => (
+          <FooterIcon
+            key={index}
+            defaultIcon={icon.defaultIcon}
+            name={icon.name}
+            href={icon.href}
+            height={30}
+            width={30}
+          /> 
+              
+        ))}
       </div>
     </footer>
   )

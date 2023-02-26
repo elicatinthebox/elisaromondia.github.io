@@ -57,7 +57,7 @@ export default function Home() {
         </div>
         <div className={styles.aboutSection}>
           <div className={styles.linkBox}>
-            <h2 className={styles.linkBoxTitle}>Reach me</h2>
+            <h2 className={styles.linkBoxTitle}>Contact</h2>
             <div className={styles.linkBoxTextContent}>{`I am available on Telegram. Telegram offers end-to-end encryption for all messages, ensuring a high level of security and privacy.  So, if you want to get in touch with me quickly and securely, consider reaching out on Telegram.
               `}</div>
             <Link href={`https://telegram.me/elicatinthebox`} className={styles.linkBoxButton}>

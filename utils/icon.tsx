@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from './icon.module.scss'
 
 type IconProps = {
-  defaulIcon: string
+  defaultIcon: string
   href?: string
   height: number
   name: string
@@ -19,7 +19,7 @@ export function FooterIcon(props: IconProps) {
       <div className={styles.icon}>
         <Image
           alt={`Default ${props.name} icon.`}
-          src={props.defaulIcon}
+          src={props.defaultIcon}
           width={props.width}
           height={props.height}/>
       </div>
