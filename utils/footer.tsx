@@ -27,7 +27,7 @@ const FooterIcons: IFooterIcon[] = [
   },
   {
     defaultIcon: gitHubLogo,
-    href: "https://github.com/elisaromondia",
+    href: "https://github.com/elicatinthebox",
     name: "GitHub",
   },
   {
