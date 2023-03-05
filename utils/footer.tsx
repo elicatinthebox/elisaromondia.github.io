@@ -46,7 +46,7 @@ export function Footer() {
   return (
     <footer className={styles.footer}>
       <h4 className={styles.copyrights}>
-        ©2023
+        2023 Elisa Romondia | P.IVA 04082590136
         <br />
         Build with <span>Next.js/TypeSript</span>
       </h4>
