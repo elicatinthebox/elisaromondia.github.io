@@ -16,7 +16,7 @@ export default function Home() {
     <div className={styles.homeContainer}>
       <Head>
         <title>Elisa Romondia</title>
-        <meta name="description" content="Blockchain Ethereum Architect expert in Smart Contract audit" />
+        <meta name="description" content="Data Scientist and Blockchain Architect" />
         <meta name="author" content="Elisa Romondia" />
         <meta name="keywords" content="Elisa, Romondia, Ethereum, Blockchain" />
         <meta property="og:image" content="https://www.elisaromondia.com/preview.png" key="ogimage" />
@@ -47,7 +47,7 @@ export default function Home() {
               <Link href={`https://devoleum.com`}>{`Devoleum`}</Link>
               {`, an open-source blockchain solution for supply chain traceability that uses a cross-blockchain infrastructure (Ethereum, Polygon, and Algorand) and linked open data.
               
-              As a blockchain architect, I am an expert in designing and implementing blockchain solutions for businesses and organizations. I have experience in training teams and organizations on implementing and maintaining blockchain architectures, ranging from EVM public blockchains to Ethereum or custom layer 2. I am specialized in blockchain solutions for supply chain management and traceability, NFT, and DeFi protocols governed by DAO.
+              As a data ccientist and blockchain architect, I am an expert in designing and implementing blockchain solutions and data infrastructures for businesses and organizations, facilitating the implementation of AI models. I have experience in training teams and organizations on implementing and maintaining blockchain architectures, ranging from EVM public blockchains to Ethereum or custom layer 2. I am specialized in blockchain solutions for supply chain management and traceability, NFT, and DeFi protocols governed by DAO.
 
               My first focus is on the security of the cryptographic and smart contracts implementations bringing security by-design vision. My modus operandi mixes data science and the classic smart contract audit methods, analyzing decentralized applications using data patterns, static analysis, and fuzzing.`}</div>
             <Link href={`https://www.linkedin.com/in/elisa-romondia/`} className={styles.linkBoxButton}>

@@ -10,7 +10,7 @@ export function MainHeader() {
         <br />
       </h1>
       <h2 >
-        {"Blockchain Architect expert in designing and implementing blockchain solutions for businesses and organizations"}
+        {"Data Scientist and Blockchain Architect expert in designing and implementing blockchain solutions and data infrastructures for businesses and organizations, facilitating the implementation of AI models."}
       </h2>
     </div>
   )
