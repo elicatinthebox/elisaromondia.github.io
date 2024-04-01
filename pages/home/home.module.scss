@@ -1,0 +1,163 @@
+.homeContainer {
+  display: flex;
+  background-color: #1A1A1A;
+  flex-direction: column;
+  max-width: 100vw;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .intro {
+      min-height: calc(100vh - 100px);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+      .introduction {
+        align-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+        margin: 40px;
+        min-height: 100vh;
+
+        .profilePicture {
+          animation: slideIn 7s;
+          
+          width: 750px;
+          text-align: center;
+
+          img {
+            border-radius: 1%;
+          }
+
+          //media query for mobile
+          @media only screen and (max-width: 400px) {
+            img {
+              width: 70vw;
+              height: auto;
+            }
+
+          }
+        }
+
+        @keyframes slideIn {
+          0% {
+            opacity: 0;
+          }
+
+          100% {
+            opacity: 1;
+          }
+        }
+      }
+
+      .swipeDownIcon {
+        align-self: center;
+        animation: pulse linear 3s infinite;
+        color: #D5D5D5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 30px;
+        text-align: center;
+        width: 100px;
+      }
+
+      @keyframes pulse {
+        0% {
+          opacity: 0;
+        }
+
+        50% {
+          opacity: 1;
+        }
+
+        100% {
+          opacity: 0;
+        }
+      }
+    }
+
+    %staticLayer {
+      max-width: 100vw;
+      min-height: 600px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    %rotatedLayer {
+      height: 140vw;
+      margin-left: -150vw;
+      position: absolute;
+      transform-origin: 50% 0;
+      transform: rotate(18deg);
+      width: 300vw;
+    }
+
+    .aboutSection {
+      @extend %staticLayer;
+      background-color: #1A1A1A;
+      display: flex;
+      margin: 0 auto;
+
+    }
+
+    .linkBox {
+      left: 50%;
+      min-width: 300px;
+      text-align: center;
+      z-index: 3;
+      padding: 0 20px;
+
+      &Title {
+        font-size: 60px;
+      }
+
+      &TextContent {
+        max-width: 800px;
+        margin-bottom: 50px;
+        font-size: 21px;
+        color: #D5D5D5;
+        white-space: pre-line;
+      }
+
+      &Button {
+        border: 3px solid #D5D5D5;
+        color: #D5D5D5;
+        display: flex;
+        font-size: 21px;
+        flex-wrap: nowrap;
+        justify-content: center;
+        padding: 15px 20px;
+        text-decoration: none;
+
+        &:hover {
+          animation: onHover 0.5s;
+          background-color: #2ca7d7;
+          border: 3px solid #2ca7d7;
+          color: #D5D5D5;
+          cursor: pointer;
+        }
+
+        @keyframes onHover {
+          0% {
+            background-color: #1A1A1A;
+            border: 3px solid #181818;
+            color: #D5D5D5;
+          }
+
+          100% {
+            background-color: #2ca7d7;
+            border: 3px solid #2ca7d7;
+            color: #D5D5D5;
+          }
+        }
+      }
+    }
+  }
+}
