@@ -10,7 +10,7 @@ export function MainHeader() {
         <br />
       </h1>
       <h2 >
-        {"Cloud Solution Architect and Data Scientist, internationally recognized as one of the Forbes 60 Women that are shaking up tech across the globe. Expert in designing and implementing distributed architectures and data infrastructures."}
+        {"Certified Cloud Solution Architect and Data Scientist, internationally recognized as one of the Forbes 60 women who are shaking up tech across the globe. Expert in designing and implementing distributed architectures and data infrastructures."}
       </h2>
     </div>
   )
