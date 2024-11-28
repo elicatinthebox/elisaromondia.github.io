@@ -16,9 +16,9 @@ export default function Home() {
     <div className={styles.homeContainer}>
       <Head>
         <title>Elisa Romondia</title>
-        <meta name="description" content="Data Scientist and Blockchain Architect" />
+        <meta name="description" content="Data Scientist and Solution Architect" />
         <meta name="author" content="Elisa Romondia" />
-        <meta name="keywords" content="Elisa, Romondia, Ethereum, Blockchain" />
+        <meta name="keywords" content="Elisa, Romondia, Ethereum, Architect, Cloud, Blockchain" />
         <meta property="og:image" content="https://www.elisaromondia.com/preview.png" key="ogimage" />
         <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon" />
 
