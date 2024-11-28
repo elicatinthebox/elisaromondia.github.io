@@ -3,7 +3,6 @@ import {
   linkedInLogo,
   gitHubLogo,
   telegramLogo,
-  twitchLogo,
   instagramLogo
 } from '../assets'
 import styles from './footer.module.scss'
@@ -34,11 +33,6 @@ const FooterIcons: IFooterIcon[] = [
     defaultIcon: telegramLogo,
     href: "http://telegram.me/elicatinthebox",
     name: "Telegram",
-  },
-  {
-    defaultIcon: twitchLogo,
-    href: "https://www.twitch.tv/elicatinthebox",
-    name: "Twitch",
   },
 ]
 
