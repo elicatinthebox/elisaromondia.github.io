@@ -28,7 +28,7 @@
         .profilePicture {
           animation: slideIn 7s;
           
-          width: 750px;
+          width: 450px;
           text-align: center;
 
           img {
@@ -36,7 +36,7 @@
           }
 
           //media query for mobile
-          @media only screen and (max-width: 400px) {
+          @media only screen and (max-width: 250px) {
             img {
               width: 60vw;
               height: auto;
