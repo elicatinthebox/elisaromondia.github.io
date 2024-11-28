@@ -38,7 +38,7 @@
           //media query for mobile
           @media only screen and (max-width: 400px) {
             img {
-              width: 70vw;
+              width: 60vw;
               height: auto;
             }
 
@@ -115,13 +115,13 @@
       padding: 0 20px;
 
       &Title {
-        font-size: 60px;
+        font-size: 40px;
       }
 
       &TextContent {
         max-width: 800px;
         margin-bottom: 50px;
-        font-size: 21px;
+        font-size: 18px;
         color: #D5D5D5;
         white-space: pre-line;
       }
