@@ -43,7 +43,7 @@ export default function Home() {
           <div className={styles.linkBox}>
             <h2 className={styles.linkBoxTitle}>About</h2>
             <div className={styles.linkBoxTextContent}>
-              {"Founder and maintainer of "}
+              {"Cofounder of "}
               <Link href={`https://devoleum.com`}>{`Devoleum`}</Link>
               {`, an open-source blockchain solution for supply chain traceability that uses a cross-blockchain infrastructure (Ethereum, Polygon, and Algorand) and linked open data.
 
