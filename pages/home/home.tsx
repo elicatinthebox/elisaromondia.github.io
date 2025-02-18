@@ -43,9 +43,9 @@ export default function Home() {
           <div className={styles.linkBox}>
             <h2 className={styles.linkBoxTitle}>About</h2>
             <div className={styles.linkBoxTextContent}>
-              {"Cofounder of "}
+              {"She was one of the founders of "}
               <Link href={`https://devoleum.com`}>{`Devoleum`}</Link>
-              {`, an open-source blockchain solution for supply chain traceability that uses a cross-blockchain infrastructure (Ethereum, Polygon, and Algorand) and linked open data.
+              {`, a blockchain experiment for supply chain traceability that used a cross-blockchain infrastructure (Ethereum, Polygon, and Algorand) and linked open data.
 
               Expert in designing and implementing distributed architectures and data infrastructures for businesses and organisations, especially facilitating the implementation of authentication systems and AI models, security compliance. Years of experience in training teams and organisations on implementing and maintaining distributed architectures, ranging from microservices architectures, EVM public blockchain to Ethereum or custom layer 2, and migrations of legacy systems to cloud.
               `}
