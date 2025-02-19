@@ -40,7 +40,7 @@ export function Footer() {
   return (
     <footer className={styles.footer}>
       <h4 className={styles.copyrights}>
-        2024 Elisa Romondia 
+        2025 Elisa Romondia 
         <br /> P.IVA 04082590136
         <br />
         Build with <span>Next.js/TypeSript</span>
