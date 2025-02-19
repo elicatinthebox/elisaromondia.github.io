@@ -53,7 +53,7 @@ export default function Home() {
               Awarded in national and international events such as:
               
               `}
-              <Link href={`https://italy.inspiringfifty.org/italy-2018`}>{`InspiringFifty Italy
+              <Link href={`https://www.wired.it/attualita/tech/2018/12/05/le-50-donne-italiane-piu-inflienti-nel-tech/`}>{`InspiringFifty Italy
               `}</Link>
               <Link href={`https://www.forbes.com/sites/allysonkapin/2018/09/19/60-women-led-startups-who-are-shaking-up-tech-across-the-globe/#19e50d6675da`}>{`Forbes 60 Women-Led Startups That Are Shaking Up Tech Across The Globe
               `}</Link>
