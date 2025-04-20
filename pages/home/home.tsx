@@ -64,18 +64,17 @@ export default function Home() {
               <Link href={`https://www.key4biz.it/digithon-secondo-posto-per-la-startup-romana-dammi-la-mano-video/163721/`}>{`Tim #Wcap Prize at Digithon
               `}</Link>
             </div>
-            <Link href={`https://www.linkedin.com/in/elisa-romondia/`} className={styles.linkBoxButton}>
-              LinkedIn
-            </Link>
           </div>
         </div>
         <div className={styles.aboutSection}>
-          <div className={styles.linkBox}>
             <h2 className={styles.linkBoxTitle}>Contact</h2>
-            <div className={styles.linkBoxTextContent}>{`I am available on Telegram. Telegram offers end-to-end encryption for all messages, ensuring a high level of security and privacy.  So, if you want to get in touch with me quickly and securely, consider reaching out on Telegram.
-              `}</div>
+                      <Link href={`https://www.linkedin.com/in/elisa-romondia/`} className={styles.linkBoxButton}>
+                        LinkedIn
+                      </Link>
+          <div className={styles.linkBox}>
+            <div className={styles.linkBoxTextContent}</div>
             <Link href={`https://telegram.me/elicatinthebox`} className={styles.linkBoxButton}>
-              @elicatinthebox
+              telegram.me/elicatinthebox
             </Link>
           </div>
         </div>
