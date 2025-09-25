@@ -67,19 +67,12 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.aboutSection}>
-          <h2 className={styles.linkBoxTitle}>Contact</h2>
-          <Link href={`https://www.linkedin.com/in/elisa-romondia/`} className={styles.linkBoxButton}>
-            LinkedIn
-          </Link>
           <div className={styles.linkBox}>
-            <div className={styles.linkBoxTextContent}>
-              <Link href={`https://telegram.me/elicatinthebox`} className={styles.linkBoxButton}>
-                telegram.me/elicatinthebox
-              </Link>
-            </div>
+            <h2 className={styles.linkBoxTitle}>Contact</h2>
+            <Link href={`https://www.linkedin.com/in/elisa-romondia/`} className={styles.linkBoxButton}>
+              LinkedIn
+            </Link>
           </div>
-
-
         </div>
         <Footer />
       </div>
