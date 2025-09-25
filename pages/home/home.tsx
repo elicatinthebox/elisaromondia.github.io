@@ -73,7 +73,7 @@ export default function Home() {
               LinkedIn
             </Link>
             <div className={styles.linkBox}>
-              <div className={styles.linkBoxTextContent}</div>
+              <div className={styles.linkBoxTextContent}
             <Link href={`https://telegram.me/elicatinthebox`} className={styles.linkBoxButton}>
               telegram.me/elicatinthebox
             </Link>
