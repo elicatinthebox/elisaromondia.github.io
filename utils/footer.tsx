@@ -43,7 +43,7 @@ export function Footer() {
         2025 Elisa Romondia 
         <br /> P.IVA 04082590136
         <br />
-        Build with <span>Next.js/TypeSript</span>
+        </span>
       </h4>
       <div className={styles.icons}>
         {FooterIcons.map((icon, index) => (
